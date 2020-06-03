@@ -8,9 +8,11 @@
 </head>
 
 <body>
-    <div class="header">
+    <!--changed <div class="header" to <header> semantics and corresponding stylesheet tag-->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!--changed <div> to <nav> semanitcs and corresponding stylesheet tag-->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,8 +24,8 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div class="hero"></div>
     <div class="content">
         <div class="search-engine-optimization">
@@ -51,32 +53,34 @@
             </p>
         </div>
     </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+
+    <!--changed div class with id to aside tag-->
+    <aside>
+        <section>
             <h3>Lead Generation</h3>
             <!--added alt attribute to optimize accessibility-->
             <img src="./assets/images/lead-generation.png" alt="an icon that shows a gear going through a funnel, and coming out a dollar sign"/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-brand">
+        </section>
+        <section>
             <h3>Brand Awareness</h3>
             <!--added alt attribute to optimize accessibility-->
             <img src="./assets/images/brand-awareness.png" alt="icon of a person in a business suit, witha glowing lightbulb as their head"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
+        </section>
+        <section>
             <h3>Cost Management</h3>
             <!--added alt attribute to optimize accessibility, also changed to self closing tag-->
             <img src="./assets/images/cost-management.png" alt="icon of gears and coins with dollar signs"/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-    </div>
+        </section>
+    </aside>
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
