@@ -66,7 +66,7 @@ a {
     margin-left: 25px;
 }
 
- .main  {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -100,7 +100,7 @@ aside img {
     max-width: 150px;
 }
  /*Removed repetitive class id's combined tags with same traits*/
-.main div {
+section div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -109,10 +109,10 @@ aside img {
     color: #ffffff;
 }
 
-.main img {
+section img {
     max-height: 200px;
 }
- main h2 {
+ section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
