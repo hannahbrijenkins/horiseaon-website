@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+ /*begin header and nav bar*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,8 +45,9 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
- /*removed font size because <p> tags are automatically 16px*/
 
+ /*removed font size because <p> tags are automatically 16px*/
+/*Begin body of website*/
 .hero {
     height: 800px;
     width: 100%;
@@ -72,6 +73,20 @@ main {
     margin-left: 20px;
 }
 
+main img {
+    max-height: 200px;
+}
+
+main div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*begin sidebar of website*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -100,19 +115,8 @@ aside img {
     max-width: 150px;
 }
  /*Removed repetitive class id's combined tags with same traits*/
-main div {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-main img {
-    max-height: 200px;
-}
- section h2 {
+ main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
